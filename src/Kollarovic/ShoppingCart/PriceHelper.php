@@ -7,20 +7,15 @@ namespace Kollarovic\ShoppingCart;
 
 class PriceHelper
 {
-	/** @var string */
-	private $currency;
+	private string $currency;
 
-	/** @var int */
-	private $decimals;
+	private int $decimals;
 
-	/** @var string */
-	private $decimalPoint;
+	private string $decimalPoint;
 
-	/** @var string */
-	private $thousandsSep;
+	private string $thousandsSep;
 
-	/** @var string */
-	private $priceFormat;
+	private string $priceFormat;
 
 
 	public function __construct(

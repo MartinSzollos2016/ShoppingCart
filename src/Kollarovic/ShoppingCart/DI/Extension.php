@@ -14,8 +14,8 @@ use Nette\DI\Statement;
 
 class Extension extends CompilerExtension
 {
-	private function getDefaultConfig()
-	{
+	private function getDefaultConfig(): array
+    {
 		return [
 			'items' => new Statement('@session::getSection', [__CLASS__]),
 			'price' => [

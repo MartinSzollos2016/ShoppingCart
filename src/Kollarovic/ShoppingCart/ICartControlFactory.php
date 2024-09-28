@@ -7,5 +7,5 @@ namespace Kollarovic\ShoppingCart;
 
 interface ICartControlFactory
 {
-	function create(): CartControl;
+	public function create(): CartControl;
 }
